@@ -6,6 +6,6 @@ DEPS = meck
 dep_meck = git https://github.com/emqx/meck.git
 
 BUILD_DEPS = emqx
-dep_emqx = git https://github.com/emqtt/emqttd emqx30
+dep_emqx = git https://github.com/Gilbert-Wong/emqttd emqx30
 
 include erlang.mk
